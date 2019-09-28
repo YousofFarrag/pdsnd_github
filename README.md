@@ -14,4 +14,4 @@ This program computes descriptive statistics for the bike-share data of three US
 
 ### Credits
 The original data files are copied from _Divvy Data_ and provided by _Udacity_.
-Find more on https://www.divvybikes.com - automatic! 
+Find more on https://www.divvybikes.com 
