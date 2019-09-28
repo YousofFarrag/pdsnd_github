@@ -191,10 +191,10 @@ def user_stats(df):
 
 def data_display(df):
     """
-    Asks user if he want to visualize the data.
+    Asks user if he want to visualize the row data.
 
     Returns:
-         5 rows of data each time.
+         5 rows of row data each time with the applied filters.
     """
     # Display 5 rows of data from n to m
     n = 0
