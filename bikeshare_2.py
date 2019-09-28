@@ -135,7 +135,7 @@ def station_stats(df):
 
     # display most commonly used end station
     EStation_mode = df['End Station'].mode()[0]
-    print('Most people start from "{}" station.'.format(EStation_mode))
+    print('Most people end their trip at "{}" station.'.format(EStation_mode))
 
     # display most frequent combination of start station and end station trip
     CombStation_mode = (df['Start Station'] + ' and ' + df['End Station']).mode()[0]
@@ -197,6 +197,7 @@ def data_display(df):
          5 rows of row data each time with the applied filters.
     """
     # Display 5 rows of data from n to m
+    # n is the starting row id and m is the included last row to show
     n = 0
     m = 5
     ddf = df.iloc[n:m]
