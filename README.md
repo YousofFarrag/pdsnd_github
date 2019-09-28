@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+This presented version of the project was presented the las 23 september 2019.
 
 ### Project Title
-Replace the Project Title
+## US Bikeshare Data.
 
 ### Description
-Describe what your project is about and what it does
+This program computes descriptive statistics for the bike-share data of three US cities: Chicago, Washington and New York City.
 
 ### Files used
-Include the files used
+- washington.csv
+- new_york_city.csv
+- chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The original data files are copied from _Divvy Data_ and provided by _Udacity_.
+Find more on https://www.divvybikes.com 
